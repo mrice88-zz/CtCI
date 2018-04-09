@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="047fa4a6-7bfb-48d6-b0cf-ee7c0a2cfc74" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter 1/1_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter 1/1_5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +13,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CtCI$1_4.coverage" NAME="1.4 Coverage Results" MODIFIED="1523237974269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter 1" />
     <SUITE FILE_PATH="coverage/CtCI$1_2.coverage" NAME="1_2 Coverage Results" MODIFIED="1523234035436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter 1" />
+    <SUITE FILE_PATH="coverage/CtCI$1_5.coverage" NAME="1_5 Coverage Results" MODIFIED="1523240329575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter 1" />
     <SUITE FILE_PATH="coverage/CtCI$1_3.coverage" NAME="1_3 Coverage Results" MODIFIED="1523235353091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter 1" />
     <SUITE FILE_PATH="coverage/CtCI$1_1.coverage" NAME="1_1 Coverage Results" MODIFIED="1523232744509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter 1" />
   </component>
@@ -37,11 +39,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1_3.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1_3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter 1/1_3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter 1/1.4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1_5.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter 1/1_5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -55,6 +75,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -64,6 +89,8 @@
         <option value="$PROJECT_DIR$/chapter 1/1_1.py" />
         <option value="$PROJECT_DIR$/chapter 1/1_2.py" />
         <option value="$PROJECT_DIR$/chapter 1/1_3.py" />
+        <option value="$PROJECT_DIR$/chapter 1/1.4.py" />
+        <option value="$PROJECT_DIR$/chapter 1/1_5.py" />
       </list>
     </option>
   </component>
@@ -74,8 +101,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="43" />
+    <option name="x" value="18" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="837" />
   </component>
@@ -127,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1_3">
+  <component name="RunManager" selected="Python.1_5">
     <configuration name="1_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CtCI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,13 +212,55 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="1.4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CtCI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter 1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter 1/1.4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="1_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CtCI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter 1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter 1/1_5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.1_1" />
       <item itemvalue="Python.1_2" />
       <item itemvalue="Python.1_3" />
+      <item itemvalue="Python.1.4" />
+      <item itemvalue="Python.1_5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1_5" />
+        <item itemvalue="Python.1.4" />
         <item itemvalue="Python.1_3" />
         <item itemvalue="Python.1_2" />
         <item itemvalue="Python.1_1" />
@@ -216,11 +285,25 @@
       <option name="project" value="LOCAL" />
       <updated>1523234143875</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added 1.3 from CtCI">
+      <created>1523235451586</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1523235451586</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added 1.4 from CtCI">
+      <created>1523238064227</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523238064227</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="43" width="1400" height="837" extended-state="0" />
+    <frame x="18" y="23" width="1400" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -232,12 +315,13 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32896462" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -254,7 +338,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added 1.2 from CtCI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 1.2 from CtCI" />
+    <MESSAGE value="Added 1.3 from CtCI" />
+    <MESSAGE value="Added 1.4 from CtCI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 1.4 from CtCI" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/chapter 1/1_1.py">
@@ -275,6 +361,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter 1/1.4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter 1/1_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
