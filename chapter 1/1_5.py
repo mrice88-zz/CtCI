@@ -18,7 +18,7 @@ def isoneeditaway(a, b):
         # THere is a bug in here.
         for _ in range(len(s1)):
             if not s1[s1_ind] is s2[s2_ind] and s1_ind is s2_ind:
-                s1_ind += 1
+                s2_ind += 1
             elif s1[s1_ind] is s2[s2_ind]:
                 s1_ind += 1
                 s2_ind += 1
@@ -38,8 +38,14 @@ def isoneeditaway(a, b):
     return True
 
 
+test1 = ['Kitty', 'Kitty']
+test2 = ['a', 'a']
+test3 = ['ab', 'a']
+test4 = ['ab', 'cd']
+test5 = ['abc', 'a']
 
-
-
-
-print(isoneeditaway('b', 'a'))
+print(isoneeditaway(test1[0], test1[1]))
+print(isoneeditaway(test2[0], test2[1]))
+print(isoneeditaway(test3[0], test3[1]))
+print(isoneeditaway(test4[0], test4[1]))
+print(isoneeditaway(test5[0], test5[1]))
